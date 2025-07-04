@@ -1,0 +1,147 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  position: relative;
+}
+
+.openHamburgerMenu,
+.closeHamburgerMenu {
+  display: none;
+}
+
+.ulNavigation > a,
+.hamburgerMobileMenuHidden > a {
+  margin-left: 0.75em;
+  text-decoration: none;
+  color: black;
+}
+
+.hamburgerMobileMenuHidden,
+.hamburgerMobileMenuHidden > a,
+.hamburgerMobileMenuShow,
+.hamburgerMobileMenuShow > a {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .ulNavigation {
+    display: none;
+  }
+
+  .openHamburgerMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    padding: 0;
+    right: 1.5rem;
+    top: 20px;
+    cursor: pointer;
+  }
+
+  .hamburgerMenuBarOne,
+  .hamburgerMenuBarTwo,
+  .hamburgerMenuBarThree {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: #333b64;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+  }
+
+  .hamburgerMenuBarOne {
+    transform: rotate(0);
+  }
+
+  .hamburgerMenuBarTwo {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .hamburgerMenuBarThree {
+    transform: rotate(0);
+  }
+
+  .closeHamburgerMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    padding: 0;
+    right: 1.5rem;
+    top: 20px;
+    cursor: pointer;
+
+    .hamburgerMenuBarOne {
+      transform: rotate(45deg);
+    }
+
+    .hamburgerMenuBarTwo {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+
+    .hamburgerMenuBarThree {
+      transform: rotate(-45deg);
+    }
+  }
+
+  .hamburgerMobileMenuHidden {
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 2.5%;
+    z-index: 1;
+    width: 30rem;
+    max-width: 50%;
+    min-width: 50%;
+    opacity: 0;
+    visibility: hidden;
+    height: 0%;
+    transition:
+      opacity 0.75s,
+      visibility 0.75s,
+      height 0.75s;
+    overflow: hidden;
+  }
+
+  .hamburgerMobileMenuShow {
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 2.5%;
+    z-index: 1;
+    width: 30rem;
+    max-width: 50%;
+    min-width: 50%;
+    opacity: 1;
+    visibility: visible;
+    height: 100vh;
+    margin-top: 2.5rem;
+  }
+
+  .hamburgerMobileMenuShow a {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navHeader {
+    font-size: 1.25rem;
+  }
+}
