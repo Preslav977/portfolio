@@ -1,0 +1,56 @@
+.spanTypeWriterContainer {
+  --d: 2s;
+  --n: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.spanTypeWriterContainer > span {
+  display: grid;
+  justify-items: center;
+  overflow: hidden;
+  height: 1.5em;
+  font-size: 2rem;
+}
+
+.spanTypeWriterContainer span span {
+  width: 0%;
+  max-width: max-content;
+  overflow: hidden;
+  height: inherit;
+  word-break: break-all;
+  animation:
+    c 0.5s infinite steps(1),
+    t 2s linear infinite alternate,
+    m 12s steps(3) infinite;
+}
+
+.spanTypeWriterContainer span span::before {
+  content: " ";
+  display: inline-block;
+}
+
+@keyframes t {
+  90%,
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes c {
+  0%,
+  100% {
+    box-shadow: 5px 0 0 #0000;
+  }
+  50% {
+    box-shadow: 5px 0 0 red;
+  }
+}
+
+@keyframes m {
+  100% {
+    transform: translateY(-300%);
+  }
+}
