@@ -2,6 +2,8 @@
   --d: 2s;
   --n: 3;
   display: flex;
+  flex-direction: column;
+  gap: 0.5em;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
@@ -53,4 +55,20 @@
   100% {
     transform: translateY(-300%);
   }
+}
+
+.flexedRightArrowSvg {
+  outline: 2px solid black;
+  display: flex;
+  gap: 0.5em;
+  padding: 0.5em;
+}
+
+.rightArrowSvg {
+  width: 25px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.rightArrowSvg:hover {
+  transform: rotate(90deg);
 }

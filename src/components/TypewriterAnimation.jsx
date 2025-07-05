@@ -3,12 +3,25 @@ import styles from "./TypewriterAnimation.module.css";
 export function TypewriteAnimation() {
   return (
     <>
-      <span className={styles.spanTypeWriterContainer}>
-        <span>
+      <span
+        aria-label="type writer animation"
+        className={styles.spanTypeWriterContainer}
+      >
+        <span aria-label="type writer text content">
           <span>Developer</span>
           <span>Music lover</span>
           <span>Calisthenics enjoyer</span>
         </span>
+        <h2>Full Stack Developer</h2>
+
+        <div className={styles.flexedRightArrowSvg}>
+          View my work{" "}
+          <img
+            className={styles.rightArrowSvg}
+            src="./right-arrow.svg"
+            alt="right arrow pointing down on hover"
+          />
+        </div>
       </span>
     </>
   );
