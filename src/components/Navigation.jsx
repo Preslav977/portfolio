@@ -9,10 +9,11 @@ export function Navigation() {
   };
 
   return (
-    <nav className={styles.navContainer}>
+    <nav aria-label="navigation" className={styles.navContainer}>
       <h1 className={styles.navHeader}>Preslav Tsvetanov</h1>
 
       <button
+        aria-label="toggle hamburger mobile menu button"
         className={
           !hamburgerMenuOpen
             ? styles.openHamburgerMenu
