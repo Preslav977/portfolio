@@ -1,0 +1,42 @@
+.aboutMeSection {
+  outline: 2px solid black;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.aboutMeInfoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMeInfoContainer > p {
+  max-width: 59%;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+}
+
+.aboutMeImg {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1135px) {
+  .aboutMeSection {
+    flex-direction: column;
+    gap: 0.75em;
+  }
+
+  .aboutMeInfoContainer {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .aboutMeInfoContainer > p {
+    max-width: 100%;
+  }
+}

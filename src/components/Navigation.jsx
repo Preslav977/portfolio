@@ -29,15 +29,15 @@ export function Navigation() {
         </button>
 
         <ul className={styles.ulNavigation}>
-          <a href="/">Home</a>
+          <a href="#">Home</a>
 
-          <a href="/about">About</a>
+          <a href="#about">About</a>
 
-          <a href="/skills">Skills</a>
+          <a href="#skills">Skills</a>
 
-          <a href="/projects">Projects</a>
+          <a href="#projects">Projects</a>
 
-          <a href="/contact">Contact</a>
+          <a href="#contact">Contact</a>
         </ul>
 
         <ul
@@ -47,15 +47,15 @@ export function Navigation() {
               : styles.hamburgerMobileMenuShow
           }
         >
-          <a href="/">Home</a>
+          <a href="#">Home</a>
 
-          <a href="/about">About</a>
+          <a href="#about">About</a>
 
-          <a href="/skills">Skills</a>
+          <a href="#skills">Skills</a>
 
-          <a href="/projects">Projects</a>
+          <a href="#projects">Projects</a>
 
-          <a href="/contact">Contact</a>
+          <a href="#contact">Contact</a>
         </ul>
       </nav>
       <TypewriteAnimation />

@@ -3,7 +3,7 @@
   justify-content: space-between;
   padding: 1em;
   position: sticky;
-  /* outline: 2px solid black; */
+  outline: 2px solid black;
   top: 0px;
   z-index: 10;
 }
