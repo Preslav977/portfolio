@@ -9,8 +9,8 @@ export function AboutMe() {
           Hello, my name is Preslav. I am a full-stack developer from Bulgaria.
           My journey began in 2022 because I decided to try programming. I
           stumbled on The Odin Project, since then I learned so much about
-          concepts, building projects, speaking with other people really neat
-          free curriculum with awesome people.
+          concepts, building projects, communicating with other people really
+          neat free curriculum with awesome people.
         </p>
         <p>
           Outside of programming I enjoy listening to music on the Monstercat
