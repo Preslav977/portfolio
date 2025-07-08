@@ -1,0 +1,18 @@
+.footerContainer {
+  outline: 2px solid black;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.upArrowSvg {
+  width: 3em;
+}
+
+.footerContentContainer {
+  display: flex;
+  gap: 0.5em;
+}
