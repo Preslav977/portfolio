@@ -107,7 +107,7 @@ export function Projects() {
           <div className={styles.projectAnchorContainer}>
             <a
               className={styles.projectAnchorCode}
-              href="https://github.com/Preslav977/wemessage-frontend"
+              href="https://github.com/Preslav977/where-is-everyone-frontend"
               target="_blank"
             >
               Review the code
@@ -115,7 +115,7 @@ export function Projects() {
 
             <a
               className={styles.projectAnchorLive}
-              href="https://wemessage-frontend-git-main-preslav977s-projects.vercel.app/login"
+              href="https://where-is-everyone-frontend.vercel.app/"
             >
               See it live
             </a>
@@ -164,7 +164,7 @@ export function Projects() {
           <div className={styles.projectAnchorContainer}>
             <a
               className={styles.projectAnchorCode}
-              href="https://github.com/Preslav977/wemessage-frontend"
+              href="https://github.com/Preslav977/blog-api-frontend"
               target="_blank"
             >
               Review the code
@@ -172,7 +172,7 @@ export function Projects() {
 
             <a
               className={styles.projectAnchorLive}
-              href="https://wemessage-frontend-git-main-preslav977s-projects.vercel.app/login"
+              href="https://blog-api-frontend-lime.vercel.app/"
             >
               See it live
             </a>
@@ -186,8 +186,8 @@ export function Projects() {
           src="./shopping-cart.png"
           alt="shopping cart project"
         />
-        <di className={styles.projectImgAndTextContentContainer}>
-          <h5 className={styles.projectName}>WeMessage</h5>
+        <div className={styles.projectImgAndTextContentContainer}>
+          <h5 className={styles.projectName}>Shopping Cart</h5>
           <div className={styles.projectCreatedWithContainer}>
             <img
               className={styles.createdWithSvg}
@@ -197,16 +197,15 @@ export function Projects() {
           </div>
           <div className={styles.projectDescriptionContainer}>
             <p className={styles.projectDescription}>
-              Full-stack messaging app where you can communicate with all users
-              in one global chat, create your own 1:1 chat with a user, and
-              create groups with other users.
+              E-commerce clothes shop that you can buy products, filter them by
+              category and remove them from the cart
             </p>
           </div>
 
           <div className={styles.projectAnchorContainer}>
             <a
               className={styles.projectAnchorCode}
-              href="https://github.com/Preslav977/wemessage-frontend"
+              href="https://github.com/Preslav977/shopping-cart"
               target="_blank"
             >
               Review the code
@@ -214,12 +213,12 @@ export function Projects() {
 
             <a
               className={styles.projectAnchorLive}
-              href="https://wemessage-frontend-git-main-preslav977s-projects.vercel.app/login"
+              href="https://shopping-cart-red-seven.vercel.app/"
             >
               See it live
             </a>
           </div>
-        </di>
+        </div>
       </div>
     </section>
   );
