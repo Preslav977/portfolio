@@ -1,0 +1,63 @@
+.projectsGridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1, 1fr));
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectsFlexedContentContainer {
+  outline: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  height: 400px;
+}
+
+.projectImage {
+  max-width: 35rem;
+  object-fit: contain;
+}
+
+.projectImgAndTextContentContainer {
+  max-width: 40%;
+}
+
+.projectCreatedWithContainer {
+  display: flex;
+  gap: 0.5em;
+}
+
+.createdWithSvg {
+  width: 2rem;
+  object-fit: contain;
+}
+
+.projectDescriptionContainer {
+  max-width: 80%;
+}
+
+.projectDescription {
+  max-width: 100%;
+}
+
+.projectAnchorContainer {
+  display: flex;
+  gap: 0.5em;
+}
+
+.projectAnchorCode,
+.projectAnchorLive {
+  text-decoration: none;
+  color: black;
+  outline: 2px solid black;
+  padding: 0.75em 1.25em;
+  margin-top: 0.5em;
+}
+
+@media screen and (max-width: 1125px) {
+  /* .projectsFlexedContainer {
+    flex-direction: column;
+  } */
+}

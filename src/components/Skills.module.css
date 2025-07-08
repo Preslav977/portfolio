@@ -7,7 +7,7 @@
 
 .gridSkillsContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-template-rows: 1fr;
   padding: 1em;
   gap: 2em;
@@ -26,6 +26,7 @@
 .flexedBackEndSkillsContainer,
 .flexedMiscellaneousSkillsContainer {
   outline: 2px solid black;
+  padding: 0.1em;
 }
 
 .flexedFrontEndSvgContainer,
@@ -37,4 +38,22 @@
   flex-flow: row nowrap;
   gap: 3em;
   flex-wrap: wrap;
+}
+
+.flexedFrontEndSvgContainer > figure,
+.flexedBackEndSvgContainer > figure,
+.flexedMiscellaneousSvgContainer > figure {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.25em;
+}
+
+.flexedFrontEndSvgContainer > figcaption,
+.flexedBackEndSvgContainer > figcaption,
+.flexedMiscellaneousSvgContainer > figcaption {
+  font-size: 0.85rem;
 }
