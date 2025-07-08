@@ -1,4 +1,5 @@
 import { AboutMe } from "./components/AboutMe";
+import { ContactMe } from "./components/ContactMe";
 import { Navigation } from "./components/Navigation";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
@@ -14,6 +15,8 @@ function App() {
       <Skills />
       <hr />
       <Projects />
+      <hr />
+      <ContactMe />
     </main>
   );
 }
