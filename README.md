@@ -6,6 +6,10 @@
 
 Created a personal portfolio to showcase my best projects.
 
+# Live Preview
+
+- [View the live site here](https://portfolio-gamma-fawn-15.vercel.app/)
+
 # Features
 
 - Typed effect animation

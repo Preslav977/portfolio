@@ -82,6 +82,7 @@ button:focus-visible {
 html,
 body {
   scroll-behavior: smooth;
+  scrollbar-width: thin;
 }
 
 hr {
