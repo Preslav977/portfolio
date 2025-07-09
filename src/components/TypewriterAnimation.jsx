@@ -13,14 +13,14 @@ export function TypewriteAnimation() {
           <span>Calisthenics enjoyer</span>
         </span>
         <h2 className={styles.typeWriterHeader}>Full Stack Developer</h2>
-        <div className={styles.flexedRightArrowSvgContainer}>
+        <a href="#projects" className={styles.flexedRightArrowAnchorContainer}>
           View my work{" "}
           <img
             className={styles.rightArrowSvg}
             src="./right-arrow.svg"
             alt="right arrow pointing down on hover"
           />
-        </div>
+        </a>
       </span>
     </>
   );

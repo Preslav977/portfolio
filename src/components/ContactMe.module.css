@@ -1,6 +1,7 @@
 .contactMeWrapper {
   padding: 1em;
   background-color: #540d6e;
+  scroll-margin-top: 20px;
 }
 
 .contactMeContainer {

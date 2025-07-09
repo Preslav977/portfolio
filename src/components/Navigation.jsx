@@ -10,7 +10,7 @@ export function Navigation() {
   };
 
   return (
-    <header className={styles.headerNavWrapper} id="#home">
+    <header className={styles.headerNavWrapper} id="home">
       <nav aria-label="navigation" className={styles.navContainer}>
         <h1 className={styles.navHeaderName}>Preslav Tsvetanov</h1>
 

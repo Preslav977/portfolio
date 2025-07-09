@@ -2,9 +2,9 @@ import styles from "./ContactMe.module.css";
 
 export function ContactMe() {
   return (
-    <div className={styles.contactMeWrapper}>
+    <div className={styles.contactMeWrapper} id="contact">
       <h6 className={styles.contactMeHeader}>Contact</h6>
-      <section className={styles.contactMeContainer} id="#contact">
+      <section className={styles.contactMeContainer}>
         <div>
           <div className={styles.contactMeDotsContainer}>
             <div className={styles.contactMeDots}></div>

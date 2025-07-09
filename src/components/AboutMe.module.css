@@ -5,6 +5,7 @@
   min-height: 250px;
   background-color: #540d6e;
   color: #2de2e6;
+  scroll-margin-top: 20px;
 }
 
 .aboutMeInfoContainer {

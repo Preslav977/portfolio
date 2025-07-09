@@ -2,9 +2,9 @@ import styles from "./Projects.module.css";
 
 export function Projects() {
   return (
-    <div className={styles.projectGridWrapper}>
+    <div className={styles.projectGridWrapper} id="projects">
       <h4 className={styles.projectsGridHeader}>My projects</h4>
-      <section className={styles.projectsGridContainer} id="#projects">
+      <section className={styles.projectsGridContainer}>
         <div className={styles.projectsFlexedContentContainer}>
           <img
             className={styles.projectImage}

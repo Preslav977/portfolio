@@ -3,13 +3,13 @@ import styles from "./Footer.module.css";
 export function Footer() {
   return (
     <footer className={styles.footerContainer}>
-      <div className={styles.upArrowContainer}>
+      <a href="#home" className={styles.upArrowContainer}>
         <img
           className={styles.upArrowSvg}
           src="./up-arrow.svg"
           alt="up arrow pointing at home"
         />
-      </div>
+      </a>
       <div className={styles.footerContentContainer}>
         <p className={styles.footerContentPara}>Copyright &#169; 2025 </p>
         <p className={styles.footerContentPara}>
