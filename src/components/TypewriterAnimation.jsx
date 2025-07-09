@@ -12,9 +12,8 @@ export function TypewriteAnimation() {
           <span>Music lover</span>
           <span>Calisthenics enjoyer</span>
         </span>
-        <h2>Full Stack Developer</h2>
-
-        <div className={styles.flexedRightArrowSvg}>
+        <h2 className={styles.typeWriterHeader}>Full Stack Developer</h2>
+        <div className={styles.flexedRightArrowSvgContainer}>
           View my work{" "}
           <img
             className={styles.rightArrowSvg}

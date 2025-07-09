@@ -7,7 +7,6 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  stroke-width: none;
 }
 
 .spanTypeWriterContainer > span {
@@ -15,7 +14,8 @@
   justify-items: center;
   overflow: hidden;
   height: 1.5em;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 800;
 }
 
 .spanTypeWriterContainer span span {
@@ -35,6 +35,11 @@
   display: inline-block;
 }
 
+.typeWriterHeader {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
 @keyframes t {
   90%,
   100% {
@@ -45,10 +50,10 @@
 @keyframes c {
   0%,
   100% {
-    box-shadow: 5px 0 0 #0000;
+    box-shadow: 3.5px 0 0 #2de2e6;
   }
   50% {
-    box-shadow: 5px 0 0 red;
+    box-shadow: 3.5px 0 0 #920075;
   }
 }
 
@@ -58,11 +63,15 @@
   }
 }
 
-.flexedRightArrowSvg {
-  outline: 2px solid black;
+.flexedRightArrowSvgContainer {
+  outline: 2px solid #920075;
   display: flex;
-  gap: 0.5em;
-  padding: 0.5em;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75em;
+  padding: 0.5em 1.25em;
+  margin-top: 0.5em;
+  cursor: pointer;
 }
 
 .rightArrowSvg {
