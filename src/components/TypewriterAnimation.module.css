@@ -84,3 +84,9 @@
 .rightArrowSvg:hover {
   transform: rotate(90deg);
 }
+
+@media screen and (max-width: 500px) {
+  .spanTypeWriterContainer > span {
+    font-size: 2rem;
+  }
+}

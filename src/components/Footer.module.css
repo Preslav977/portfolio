@@ -1,9 +1,10 @@
 .footerContainer {
   display: flex;
   flex-direction: column;
-  height: 120px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  height: 120px;
   position: relative;
   background-color: #540d6e;
   color: #2de2e6;
@@ -16,6 +17,11 @@
 .footerContentContainer {
   display: flex;
   gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+.footerContentPara {
+  font-weight: 400;
 }
 
 .upArrowContainer {
@@ -31,4 +37,12 @@
   color: #2de2e6;
   margin-left: 0.25em;
   text-decoration: none;
+}
+
+@media screen and (max-width: 380px) {
+  .footerContentContainer {
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+  }
 }

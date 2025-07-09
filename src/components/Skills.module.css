@@ -78,6 +78,7 @@
 .flexedBackEndSvgContainer > figcaption,
 .flexedMiscellaneousSvgContainer > figcaption {
   font-size: 0.85rem;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 1000px) {

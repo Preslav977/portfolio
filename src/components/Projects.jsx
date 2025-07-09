@@ -59,7 +59,8 @@ export function Projects() {
 
               <a
                 className={styles.projectAnchorLive}
-                href="https://wemessage-frontend-git-main-preslav977s-projects.vercel.app/login"
+                href="https://wemessage-frontend-git-main-preslav977s-projects.vercel.app/login "
+                target="_blank"
               >
                 See it live
               </a>
@@ -118,6 +119,7 @@ export function Projects() {
               <a
                 className={styles.projectAnchorLive}
                 href="https://where-is-everyone-frontend.vercel.app/"
+                target="_blank"
               >
                 See it live
               </a>
@@ -175,6 +177,7 @@ export function Projects() {
               <a
                 className={styles.projectAnchorLive}
                 href="https://blog-api-frontend-lime.vercel.app/"
+                target="_blank"
               >
                 See it live
               </a>
@@ -216,6 +219,7 @@ export function Projects() {
               <a
                 className={styles.projectAnchorLive}
                 href="https://shopping-cart-red-seven.vercel.app/"
+                target="_blank"
               >
                 See it live
               </a>

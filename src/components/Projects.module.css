@@ -98,6 +98,7 @@
   max-width: 100%;
   color: #2de2e6;
   line-height: 1.25;
+  font-weight: 400;
 }
 
 .projectAnchorContainer {
@@ -150,12 +151,19 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .projectImage {
     max-width: 100%;
   }
 
   .projectImgAndTextContentContainer {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .projectAnchorCode,
+  .projectAnchorLive {
+    padding: 0.55em 1em;
   }
 }
