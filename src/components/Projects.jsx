@@ -202,8 +202,8 @@ export function Projects() {
             </div>
             <div className={styles.projectDescriptionContainer}>
               <p className={styles.projectDescription}>
-                E-commerce clothes shop that you can buy products, filter them
-                by category and remove them from the cart
+                E-commerce clothes shop where you can buy products and filter
+                them by category and remove them from the cart
               </p>
             </div>
 
