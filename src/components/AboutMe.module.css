@@ -1,8 +1,10 @@
 .aboutMeSection {
-  outline: 2px solid black;
   padding: 1em;
   display: flex;
   align-items: center;
+  min-height: 250px;
+  background-color: #540d6e;
+  color: #2de2e6;
 }
 
 .aboutMeInfoContainer {
@@ -10,16 +12,32 @@
   flex-direction: column;
 }
 
-.aboutMeInfoContainer > p {
-  max-width: 59%;
-  line-height: 1.5;
+.aboutMeHeader {
+  font-size: 2.5rem;
+  width: 60%;
+}
+
+.aboutMeHeader::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  width: 25%;
+  outline: 2px solid #920075;
+}
+
+.aboutMeInfoContainer > .aboutMeInfoPara {
+  max-width: 60%;
+  line-height: 1.75;
   margin-top: 0.5rem;
+  font-weight: 400;
 }
 
 .aboutMeImg {
   width: 9rem;
   height: 9rem;
   border-radius: 50%;
+  border: 2px solid #920075;
   object-fit: contain;
 }
 
@@ -36,7 +54,11 @@
 }
 
 @media screen and (max-width: 750px) {
-  .aboutMeInfoContainer > p {
+  .aboutMeInfoContainer > .aboutMeInfoPara {
     max-width: 100%;
+  }
+
+  .aboutMeHeader {
+    width: 100%;
   }
 }
