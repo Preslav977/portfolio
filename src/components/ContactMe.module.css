@@ -1,3 +1,8 @@
+.contactMeWrapper {
+  padding: 1em;
+  background-color: #540d6e;
+}
+
 .contactMeContainer {
   display: flex;
   justify-content: center;
@@ -6,14 +11,51 @@
   padding: 1em;
 }
 
+.contactMeHeader {
+  font-size: 2.5rem;
+  color: #2de2e6;
+}
+
+.contactMeHeader::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  width: 15%;
+  outline: 2px solid #920075;
+}
+
+.contactMeDotsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.25em;
+}
+
+.contactMeDots {
+  width: 0.75em;
+  height: 0.75em;
+  border-radius: 50%;
+  background-color: #2de2e6;
+}
+
+.contactMePara {
+  color: #2de2e6;
+}
+
 .contactMeSvgContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 0.5em;
+  gap: 0.5em;
+  transition: outline 0.15s ease-in-out;
 }
 
 .contactMeSvg {
   width: 2.5rem;
-  height: 2.5rem;
+}
+
+.contactMeSvg:hover {
+  outline: 2px solid #2de2e6;
+  border-radius: 50%;
 }
