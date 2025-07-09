@@ -2,7 +2,7 @@ import styles from "./ContactMe.module.css";
 
 export function ContactMe() {
   return (
-    <section className={styles.contactMeContainer}>
+    <section className={styles.contactMeContainer} id="#contact">
       <div>
         <h6>Contact</h6>
 

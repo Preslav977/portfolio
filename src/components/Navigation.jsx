@@ -10,9 +10,9 @@ export function Navigation() {
   };
 
   return (
-    <header>
+    <header className={styles.headerNavWrapper} id="#home">
       <nav aria-label="navigation" className={styles.navContainer}>
-        <h1 className={styles.navHeader}>Preslav Tsvetanov</h1>
+        <h1 className={styles.navHeaderName}>Preslav Tsvetanov</h1>
 
         <button
           aria-label="toggle hamburger mobile menu button"
@@ -28,8 +28,8 @@ export function Navigation() {
           <div className={styles.hamburgerMenuBarThree}></div>
         </button>
 
-        <ul className={styles.ulNavigation}>
-          <a href="#">Home</a>
+        <ul aria-label="ul navigation" className={styles.ulNavigation}>
+          <a href="#home">Home</a>
 
           <a href="#about">About</a>
 
@@ -41,13 +41,14 @@ export function Navigation() {
         </ul>
 
         <ul
+          aria-label="hamburger menu navigation"
           className={
             !hamburgerMenuOpen
               ? styles.hamburgerMobileMenuHidden
               : styles.hamburgerMobileMenuShow
           }
         >
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
 
           <a href="#about">About</a>
 

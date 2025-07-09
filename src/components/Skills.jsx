@@ -2,7 +2,7 @@ import styles from "./Skills.module.css";
 
 export function Skills() {
   return (
-    <div className={styles.flexedCenteredSkillsContainer}>
+    <div className={styles.flexedCenteredSkillsContainer} id="#skills">
       <h3>Skills</h3>
       <section className={styles.gridSkillsContainer}>
         <div className={styles.flexedFrontEndSkillsContainer}>
