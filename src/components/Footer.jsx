@@ -7,14 +7,18 @@ export function Footer() {
         <img
           className={styles.upArrowSvg}
           src="./up-arrow.svg"
-          alt="up arrow"
+          alt="up arrow pointing at home"
         />
       </div>
       <div className={styles.footerContentContainer}>
-        <p>Copyright &#169; 2025</p>
-        <p>
+        <p className={styles.footerContentPara}>Copyright &#169; 2025 </p>
+        <p className={styles.footerContentPara}>
           Created by
-          <a href="https://github.com/Preslav977" target="_blank">
+          <a
+            className={styles.footerGithubAnchor}
+            href="https://github.com/Preslav977"
+            target="_blank"
+          >
             Preslav Tsvetanov
           </a>
         </p>

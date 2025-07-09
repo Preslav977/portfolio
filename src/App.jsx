@@ -18,6 +18,7 @@ function App() {
       <Projects />
       <hr />
       <ContactMe />
+      <hr />
       <Footer />
     </main>
   );
