@@ -125,7 +125,7 @@
     position: absolute;
     z-index: 1;
     width: 30rem;
-    max-width: 50%;
+    max-width: 70%;
     right: 2.5%;
     opacity: 0;
     visibility: hidden;
@@ -145,7 +145,7 @@
     position: absolute;
     z-index: 1;
     width: 30em;
-    max-width: 50%;
+    max-width: 70%;
     top: 75%;
     right: 2.5%;
     opacity: 1;
