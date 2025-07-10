@@ -3,8 +3,8 @@
   display: flex;
   align-items: center;
   min-height: 250px;
-  background-color: #540d6e;
-  color: #2de2e6;
+  background-color: #1d3557;
+  color: #a8dadc;
   scroll-margin-top: 20px;
 }
 
@@ -24,7 +24,7 @@
   vertical-align: middle;
   margin-left: 20px;
   width: 25%;
-  outline: 2px solid #920075;
+  outline: 2px solid #f1faee;
 }
 
 .aboutMeInfoContainer > .aboutMeInfoPara {
@@ -38,7 +38,7 @@
   width: 9rem;
   height: 9rem;
   border-radius: 50%;
-  border: 2px solid #920075;
+  border: 2px solid #f1faee;
   object-fit: contain;
 }
 

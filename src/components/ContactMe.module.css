@@ -1,6 +1,6 @@
 .contactMeWrapper {
   padding: 1em;
-  background-color: #540d6e;
+  background-color: #1d3557;
   scroll-margin-top: 20px;
 }
 
@@ -14,7 +14,7 @@
 
 .contactMeHeader {
   font-size: 2.5rem;
-  color: #2de2e6;
+  color: #a7dadc;
 }
 
 .contactMeHeader::after {
@@ -23,7 +23,7 @@
   vertical-align: middle;
   margin-left: 20px;
   width: 15%;
-  outline: 2px solid #920075;
+  outline: 2px solid #f1faee;
 }
 
 .contactMeDotsContainer {
@@ -36,11 +36,11 @@
   width: 0.75em;
   height: 0.75em;
   border-radius: 50%;
-  background-color: #2de2e6;
+  background-color: #f1faee;
 }
 
 .contactMePara {
-  color: #2de2e6;
+  color: #f1faee;
   font-weight: 400;
 }
 
@@ -58,6 +58,6 @@
 }
 
 .contactMeSvg:hover {
-  outline: 2px solid #2de2e6;
+  outline: 2px solid #f1faee;
   border-radius: 50%;
 }

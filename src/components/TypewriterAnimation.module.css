@@ -50,10 +50,10 @@
 @keyframes c {
   0%,
   100% {
-    box-shadow: 3.5px 0 0 #2de2e6;
+    box-shadow: 3.5px 0 0 #a8dadc;
   }
   50% {
-    box-shadow: 3.5px 0 0 #920075;
+    box-shadow: 3.5px 0 0 #f1faee;
   }
 }
 
@@ -64,7 +64,7 @@
 }
 
 .flexedRightArrowAnchorContainer {
-  outline: 2px solid #920075;
+  outline: 2px solid #f1faee;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +72,7 @@
   padding: 0.5em 1.25em;
   margin-top: 0.5em;
   cursor: pointer;
-  color: #2de2e6;
+  color: #a8dadc;
   text-decoration: none;
 }
 

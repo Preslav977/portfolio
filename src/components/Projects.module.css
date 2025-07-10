@@ -1,12 +1,12 @@
 .projectGridWrapper {
   padding: 1em;
-  background-color: #540d6e;
+  background-color: #1d3557;
   scroll-margin-top: 20px;
 }
 
 .projectsGridHeader {
   font-size: 2.5rem;
-  color: #2de2e6;
+  color: #a8dadc;
 }
 
 .projectsGridHeader::after {
@@ -15,7 +15,7 @@
   vertical-align: middle;
   margin-left: 20px;
   width: 15%;
-  outline: 2px solid #920075;
+  outline: 2px solid #f1faee;
 }
 
 .projectsGridContainer {
@@ -59,7 +59,7 @@
   max-width: 35rem;
   object-fit: contain;
   filter: grayscale(100%);
-  outline: 2px solid #2de2e6;
+  outline: 2px solid #f1faee;
   cursor: pointer;
 }
 
@@ -76,7 +76,7 @@
 
 .projectName {
   font-size: 1.5rem;
-  color: #2de2e6;
+  color: #f1faee;
 }
 
 .projectCreatedWithContainer {
@@ -96,7 +96,7 @@
 
 .projectDescription {
   max-width: 100%;
-  color: #2de2e6;
+  color: #f1faee;
   line-height: 1.25;
   font-weight: 400;
 }
@@ -108,10 +108,10 @@
 
 .projectAnchorCode,
 .projectAnchorLive {
-  background-color: #920075;
+  background-color: #1d3557;
   text-decoration: none;
-  color: #2de2e6;
-  outline: 2px solid #2de2e6;
+  color: #a8dadc;
+  outline: 2px solid #f1faee;
   padding: 0.75em 1.25em;
   margin-top: 0.5em;
 }

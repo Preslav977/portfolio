@@ -6,8 +6,8 @@
   flex-wrap: wrap;
   height: 120px;
   position: relative;
-  background-color: #540d6e;
-  color: #2de2e6;
+  background-color: #1d3557;
+  color: #f1faee;
 }
 
 .upArrowSvg {
@@ -25,16 +25,15 @@
 }
 
 .upArrowContainer {
-  outline: 2px solid #2de2e6;
-  background-color: #540d6e;
-  /* border-radius: 75%; */
+  outline: 2px solid #f1faee;
+  background-color: #1d3557;
   position: absolute;
   top: -20%;
   cursor: pointer;
 }
 
 .footerGithubAnchor {
-  color: #2de2e6;
+  color: #f1faee;
   margin-left: 0.25em;
   text-decoration: none;
 }
