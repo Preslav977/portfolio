@@ -48,15 +48,25 @@ export function Navigation() {
               : styles.hamburgerMobileMenuShow
           }
         >
-          <a href="#home">Home</a>
+          <a href="#home" onClick={() => setHamburgerMenu(false)}>
+            Home
+          </a>
 
-          <a href="#about">About</a>
+          <a href="#about" onClick={() => setHamburgerMenu(false)}>
+            About
+          </a>
 
-          <a href="#skills">Skills</a>
+          <a href="#skills" onClick={() => setHamburgerMenu(false)}>
+            Skills
+          </a>
 
-          <a href="#projects">Projects</a>
+          <a href="#projects" onClick={() => setHamburgerMenu(false)}>
+            Projects
+          </a>
 
-          <a href="#contact">Contact</a>
+          <a href="#contact" onClick={() => setHamburgerMenu(false)}>
+            Contact
+          </a>
         </ul>
       </nav>
       <TypewriteAnimation />
