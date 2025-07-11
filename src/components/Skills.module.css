@@ -14,7 +14,7 @@
   display: inline-block;
   vertical-align: middle;
   margin-left: 20px;
-  width: var(--main-scroll-margin-top);
+  width: 15%;
   outline: 2px solid var(--main-color);
 }
 
@@ -43,18 +43,14 @@
   cursor: pointer;
 }
 
-.flexedFrontEndSkillsContainer,
-.flexedBackEndSkillsContainer,
-.flexedMiscellaneousSkillsContainer {
+.gridSkillsWrapper {
   outline: 2px solid var(--main-bg-color);
   color: var(--main-bg-color);
   padding: 0.1em;
   background-color: var(--main-color);
 }
 
-.flexedFrontEndSvgContainer,
-.flexedBackEndSvgContainer,
-.flexedMiscellaneousSvgContainer {
+.gridSkillsSVGContainer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,9 +59,7 @@
   flex-wrap: wrap;
 }
 
-.flexedFrontEndSvgContainer > figure,
-.flexedBackEndSvgContainer > figure,
-.flexedMiscellaneousSvgContainer > figure {
+.gridSkillsSVGContainer > figure {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -74,9 +68,7 @@
   gap: 0.25em;
 }
 
-.flexedFrontEndSvgContainer > figcaption,
-.flexedBackEndSvgContainer > figcaption,
-.flexedMiscellaneousSvgContainer > figcaption {
+.gridSkillsSVGContainer > figcaption {
   font-size: 0.85rem;
   font-weight: 400;
 }
