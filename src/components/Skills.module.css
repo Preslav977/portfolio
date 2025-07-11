@@ -1,12 +1,12 @@
 .flexedSkillsWrapper {
-  padding: 1em;
-  background-color: #1d3557;
+  padding: var(--main-padding);
+  background-color: var(--main-bg-color);
   scroll-margin-top: 80px;
 }
 
 .flexedSkillHeader {
   font-size: 2.5rem;
-  color: #a8dadc;
+  color: var(--secondary-bg-color);
 }
 
 .flexedSkillHeader::after {
@@ -14,8 +14,8 @@
   display: inline-block;
   vertical-align: middle;
   margin-left: 20px;
-  width: 15%;
-  outline: 2px solid #f1faee;
+  width: var(--main-scroll-margin-top);
+  outline: 2px solid var(--main-color);
 }
 
 .flexedCenteredSkillsContainer {
@@ -46,10 +46,10 @@
 .flexedFrontEndSkillsContainer,
 .flexedBackEndSkillsContainer,
 .flexedMiscellaneousSkillsContainer {
-  outline: 2px solid #1d3557;
-  color: #1d3557;
+  outline: 2px solid var(--main-bg-color);
+  color: var(--main-bg-color);
   padding: 0.1em;
-  background-color: #f1faee;
+  background-color: var(--main-color);
 }
 
 .flexedFrontEndSvgContainer,

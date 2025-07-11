@@ -1,3 +1,16 @@
+:root {
+  --main-bg-color: #1d3557;
+  --secondary-bg-color: #a8dadc;
+  --main-color: #f1faee;
+  --main-padding: 1em;
+  --typewriter-animation-font-size: 2rem;
+  --typewriter-animation-span-font-size: 3rem;
+  --d: 2s;
+  --n: 3;
+  --main-scroll-margin-top: 50px;
+  --projects-flex-container-gap: 1em;
+}
+
 *,
 *::before,
 *::after {

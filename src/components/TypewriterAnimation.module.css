@@ -1,6 +1,4 @@
 .spanTypeWriterContainer {
-  --d: 2s;
-  --n: 3;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
@@ -14,7 +12,7 @@
   justify-items: center;
   overflow: hidden;
   height: 1.5em;
-  font-size: 3rem;
+  font-size: var(--typewriter-animation-span-font-size);
   font-weight: 800;
 }
 
@@ -26,8 +24,8 @@
   word-break: break-all;
   animation:
     c 0.5s infinite steps(1),
-    t 2s linear infinite alternate,
-    m 12s steps(3) infinite;
+    t var(--d) linear infinite alternate,
+    m 12s steps(var(--n)) infinite;
 }
 
 .spanTypeWriterContainer span span::before {
@@ -36,7 +34,7 @@
 }
 
 .typeWriterHeader {
-  font-size: 2rem;
+  font-size: var(--typewriter-animation-font-size);
   font-weight: 700;
 }
 
@@ -50,10 +48,10 @@
 @keyframes c {
   0%,
   100% {
-    box-shadow: 3.5px 0 0 #a8dadc;
+    box-shadow: 3.5px 0 0 var(--secondary-bg-color);
   }
   50% {
-    box-shadow: 3.5px 0 0 #f1faee;
+    box-shadow: 3.5px 0 0 var(--main-color);
   }
 }
 
@@ -64,7 +62,7 @@
 }
 
 .flexedRightArrowAnchorContainer {
-  outline: 2px solid #f1faee;
+  outline: 2px solid var(--main-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +70,7 @@
   padding: 0.5em 1.25em;
   margin-top: 0.5em;
   cursor: pointer;
-  color: #a8dadc;
+  color: var(--secondary-bg-color);
   text-decoration: none;
 }
 
@@ -87,6 +85,6 @@
 
 @media screen and (max-width: 500px) {
   .spanTypeWriterContainer > span {
-    font-size: 2rem;
+    font-size: var(--typewriter-animation-font-size);
   }
 }

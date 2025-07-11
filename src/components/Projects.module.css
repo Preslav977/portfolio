@@ -1,21 +1,21 @@
 .projectGridWrapper {
-  padding: 1em;
-  background-color: #1d3557;
+  padding: var(--main-padding);
+  background-color: var(--main-bg-color);
   scroll-margin-top: 80px;
 }
 
 .projectsGridHeader {
   font-size: 2.5rem;
-  color: #a8dadc;
+  color: var(--secondary-bg-color);
 }
 
 .projectsGridHeader::after {
-  content: "";
+  content: " ";
   display: inline-block;
   vertical-align: middle;
   margin-left: 20px;
   width: 15%;
-  outline: 2px solid #f1faee;
+  outline: 2px solid var(--main-color);
 }
 
 .projectsGridContainer {
@@ -37,29 +37,29 @@
 
 .projectsFlexedContentContainer:first-child {
   margin-left: 50px;
-  gap: 1em;
+  gap: var(--projects-flex-container-gap);
 }
 
 .projectsFlexedContentContainer:nth-child(2) {
   margin-left: 100px;
-  gap: 1em;
+  gap: var(--projects-flex-container-gap);
 }
 
 .projectsFlexedContentContainer:nth-child(3) {
   margin-left: 150px;
-  gap: 1em;
+  gap: var(--projects-flex-container-gap);
 }
 
 .projectsFlexedContentContainer:last-child {
   margin-left: 200px;
-  gap: 1em;
+  gap: var(--projects-flex-container-gap);
 }
 
 .projectImage {
   max-width: 35rem;
   object-fit: contain;
   filter: grayscale(100%);
-  outline: 2px solid #f1faee;
+  outline: 2px solid var(--main-color);
   cursor: pointer;
 }
 
@@ -76,7 +76,7 @@
 
 .projectName {
   font-size: 1.5rem;
-  color: #f1faee;
+  color: var(--main-color);
 }
 
 .projectCreatedWithContainer {
@@ -96,7 +96,7 @@
 
 .projectDescription {
   max-width: 100%;
-  color: #f1faee;
+  color: var(--main-color);
   line-height: 1.25;
   font-weight: 400;
 }
@@ -108,10 +108,10 @@
 
 .projectAnchorCode,
 .projectAnchorLive {
-  background-color: #1d3557;
+  background-color: var(--main-bg-color);
   text-decoration: none;
-  color: #a8dadc;
-  outline: 2px solid #f1faee;
+  color: var(--secondary-bg-color);
+  outline: 2px solid var(--main-color);
   padding: 0.75em 1.25em;
   margin-top: 0.5em;
 }

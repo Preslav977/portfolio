@@ -1,11 +1,11 @@
 .aboutMeSection {
-  padding: 1em;
+  padding: var(--main-padding);
   display: flex;
   align-items: center;
   min-height: 250px;
-  background-color: #1d3557;
-  color: #a8dadc;
-  scroll-margin-top: 50px;
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+  scroll-margin-top: var(--main-scroll-margin-top);
 }
 
 .aboutMeInfoContainer {
@@ -19,12 +19,12 @@
 }
 
 .aboutMeHeader::after {
-  content: "";
+  content: " ";
   display: inline-block;
   vertical-align: middle;
   margin-left: 20px;
   width: 25%;
-  outline: 2px solid #f1faee;
+  outline: 2px solid var(--main-color);
 }
 
 .aboutMeInfoContainer > .aboutMeInfoPara {
@@ -38,7 +38,7 @@
   width: 9rem;
   height: 9rem;
   border-radius: 50%;
-  border: 2px solid #f1faee;
+  border: 2px solid var(--main-color);
   object-fit: contain;
 }
 

@@ -6,8 +6,9 @@
   flex-wrap: wrap;
   height: 120px;
   position: relative;
-  background-color: #1d3557;
-  color: #f1faee;
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+  padding: var(--main-padding);
 }
 
 .upArrowSvg {
@@ -25,15 +26,15 @@
 }
 
 .upArrowContainer {
-  outline: 2px solid #f1faee;
-  background-color: #1d3557;
+  outline: 2px solid var(--main-color);
+  background-color: var(--main-bg-color);
   position: absolute;
   top: -20%;
   cursor: pointer;
 }
 
 .footerGithubAnchor {
-  color: #f1faee;
+  color: var(--main-color);
   margin-left: 0.25em;
   text-decoration: none;
 }
