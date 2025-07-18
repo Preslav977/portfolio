@@ -14,7 +14,7 @@ export function AboutMe() {
         </p>
         <p className={styles.aboutMeInfoPara}>
           Outside of programming I enjoy listening to music on the Monstercat
-          label. watching documentations and working out outside.
+          label. Watching documentations and working out outside.
         </p>
       </div>
       <img className={styles.aboutMeImg} src="./preslav.jpeg" alt="preslav" />

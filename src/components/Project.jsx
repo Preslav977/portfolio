@@ -7,7 +7,10 @@ export function Project() {
     <>
       {projects.map((project) => {
         return (
-          <div className={styles.projectsFlexedContentContainer}>
+          <div
+            key={project.id}
+            className={styles.projectsFlexedContentContainer}
+          >
             <img
               className={styles.projectImage}
               src={project.src}
@@ -19,6 +22,7 @@ export function Project() {
                 {project.createdWith.map((createdWithSVG) => {
                   return (
                     <img
+                      key={createdWithSVG.id}
                       className={styles.createdWithSvg}
                       src={createdWithSVG.src}
                       alt={createdWithSVG.alt}
@@ -36,6 +40,7 @@ export function Project() {
                   {project.anchors.map((anchor) => {
                     return (
                       <a
+                        key={anchor.name}
                         className={styles.projectAnchorCode}
                         href={anchor.href}
                         target="_blank"

@@ -6,7 +6,7 @@ export function MiscellaneousSkills({ imgClassName }) {
       <>
         {miscellaneousSkills.map((skill) => {
           return (
-            <figure>
+            <figure key={skill.id}>
               <img className={imgClassName} src={skill.src} alt={skill.alt} />
               <figcaption>{skill.name}</figcaption>
             </figure>

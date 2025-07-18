@@ -20,7 +20,7 @@ export const projects = [
       },
       {
         name: "See it live",
-        href: "https://wemessage-frontend-git-main-preslav977s-projects.vercel.app/login",
+        href: "https://wemessage-frontend.vercel.app/login",
       },
     ],
   },

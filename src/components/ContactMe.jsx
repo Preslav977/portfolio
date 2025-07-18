@@ -2,7 +2,11 @@ import styles from "./ContactMe.module.css";
 
 export function ContactMe() {
   return (
-    <div className={styles.contactMeWrapper} id="contact">
+    <div
+      aria-label="contact me section"
+      className={styles.contactMeWrapper}
+      id="contact"
+    >
       <h6 className={styles.contactMeHeader}>Contact</h6>
       <section className={styles.contactMeContainer}>
         <div>
@@ -24,7 +28,7 @@ export function ContactMe() {
               />
             </a>
 
-            <a href="mailto:preslav.tsvetanov@gmail.com" target="_blank">
+            <a href="mailto:preslavtsvetanov97@gmail.com" target="_blank">
               <img
                 className={styles.contactMeSvg}
                 src="./email.svg"

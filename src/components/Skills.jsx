@@ -5,7 +5,11 @@ import styles from "./Skills.module.css";
 
 export function Skills() {
   return (
-    <div className={styles.flexedSkillsWrapper} id="skills">
+    <div
+      aria-label="skills section"
+      className={styles.flexedSkillsWrapper}
+      id="skills"
+    >
       <h3 className={styles.flexedSkillHeader}>My Skills</h3>
       <div className={styles.flexedCenteredSkillsContainer}>
         <section className={styles.gridSkillsContainer}>
