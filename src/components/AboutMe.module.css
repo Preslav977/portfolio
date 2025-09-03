@@ -40,7 +40,7 @@
   height: 9rem;
   border-radius: 50%;
   border: 2px solid var(--main-color);
-  object-fit: contain;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1135px) {

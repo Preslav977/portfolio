@@ -17,7 +17,7 @@ export function AboutMe() {
           label. Watching documentations and working out outside.
         </p>
       </div>
-      <img className={styles.aboutMeImg} src="./preslav.jpeg" alt="preslav" />
+      <img className={styles.aboutMeImg} src="./preslav.png" alt="preslav" />
     </section>
   );
 }
