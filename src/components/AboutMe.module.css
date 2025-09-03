@@ -1,7 +1,7 @@
 .aboutMeSection {
   padding: var(--main-padding);
   display: flex;
-  align-items: center;
+  flex-direction: column;
   min-height: 250px;
   background-color: var(--main-bg-color);
   color: var(--main-color);
@@ -10,7 +10,14 @@
 
 .aboutMeInfoContainer {
   display: flex;
+  justify-content: space-between;
+  line-height: 1.75;
+}
+
+.aboutMeInfo {
+  display: flex;
   flex-direction: column;
+  max-width: 57%;
 }
 
 .aboutMeHeader {
@@ -35,9 +42,13 @@
   font-weight: 400;
 }
 
+.aboutMeImgContainer {
+  outline: 2px solid gold;
+}
+
 .aboutMeImg {
-  width: 9rem;
-  height: 9rem;
+  width: 8rem;
+  height: 8rem;
   border-radius: 50%;
   border: 2px solid var(--main-color);
   object-fit: cover;
@@ -50,13 +61,16 @@
   }
 
   .aboutMeInfoContainer {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
     align-items: center;
   }
 }
 
 @media screen and (max-width: 750px) {
-  .aboutMeInfoContainer > .aboutMeInfoPara {
+  .aboutMeInfoContainer > .aboutMeInfoPara,
+  .aboutMeInfo {
     max-width: 100%;
   }
 
