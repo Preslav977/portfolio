@@ -40,8 +40,13 @@
   gap: var(--projects-flex-container-gap);
 }
 
-.projectsFlexedContentContainer:last-child {
+.projectsFlexedContentContainer:nth-child(4) {
   margin-left: 200px;
+  gap: var(--projects-flex-container-gap);
+}
+
+.projectsFlexedContentContainer:last-child {
+  margin-left: 250px;
   gap: var(--projects-flex-container-gap);
 }
 

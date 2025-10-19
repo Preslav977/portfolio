@@ -1,6 +1,31 @@
 export const projects = [
   {
     id: 0,
+    src: "./socialhub.png",
+    alt: "wemessage project",
+    createdWith: [
+      { id: 0, src: "./postgresql.svg", alt: "postgresql" },
+      { id: 1, src: "./prisma.svg", alt: "prisma" },
+      { id: 2, src: "./express.svg", alt: "express" },
+      { id: 3, src: "./react.svg", alt: "react" },
+      { id: 4, src: "./nodejs.svg", alt: "nodejs" },
+    ],
+    projectName: "Socialhub",
+    description:
+      "Full-stack social media project where you can create posts and conversations, like the posts, create comments, and much more.",
+    anchors: [
+      {
+        name: "Review the code",
+        href: "https://github.com/Preslav977/social-frontend",
+      },
+      {
+        name: "See it live",
+        href: "https://socialhub-frontend-seven.vercel.app/",
+      },
+    ],
+  },
+  {
+    id: 1,
     src: "./wemessage.png",
     alt: "wemessage project",
     createdWith: [
@@ -25,7 +50,7 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     src: "./where-everyone.png",
     alt: "where-everyone project",
     createdWith: [
@@ -49,7 +74,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     src: "./blog-api.png",
     alt: "blog api project",
     createdWith: [
@@ -73,7 +98,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     src: "./shopping-cart.png",
     alt: "shopping cart project",
     createdWith: [{ id: 0, src: "./react.svg", alt: "react" }],
