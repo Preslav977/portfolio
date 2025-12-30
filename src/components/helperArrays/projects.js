@@ -10,9 +10,9 @@ export const projects = [
       { id: 3, src: "./react.svg", alt: "react" },
       { id: 4, src: "./nodejs.svg", alt: "nodejs" },
     ],
-    projectName: "Socialhub",
+    projectName: "SocialHub",
     description:
-      "Full-stack social media project where you can create posts and conversations, like the posts, create comments, and much more.",
+      "Full-stack social media application that allows users to create posts, start conversations, like content, and engage through comments in a user-friendly interface.",
     anchors: [
       {
         name: "Review the code",
@@ -37,7 +37,7 @@ export const projects = [
     ],
     projectName: "WeMessage",
     description:
-      "Full-stack messaging app where you can communicate with all users in one global chat, create your own 1:1 chat with a user, and create groups with other users.",
+      "Full-stack messaging application enabling real-time communication through a global chat, one-to-one conversations, and group chats with multiple users.",
     anchors: [
       {
         name: "Review the code",
@@ -61,7 +61,7 @@ export const projects = [
     ],
     projectName: "Where's Everyone",
     description:
-      "Full-stack photo-tagging game where you need to find the characters as fast as possible to earn a place in the leaderboard while racing with other users.",
+      "Full-stack photo-tagging game where users identify characters as quickly as possible, compete against others, and earn a position on a shared leaderboard.",
     anchors: [
       {
         name: "Review the code",
@@ -85,7 +85,7 @@ export const projects = [
     ],
     projectName: "Blog API",
     description:
-      "Full-stack blog API with posts about the rich Bulgarian history, culture, customs, and nature that you can learn and share with other people.",
+      "Full-stack blog API featuring content focused on Bulgarian history, culture, customs, and nature, allowing users to explore and share articles.",
     anchors: [
       {
         name: "Review the code",
@@ -104,7 +104,7 @@ export const projects = [
     createdWith: [{ id: 0, src: "./react.svg", alt: "react" }],
     projectName: "Shopping Cart",
     description:
-      "E-commerce clothes shop where you can buy products and filter them by category and remove them from the cart",
+      "E-commerce clothing store where users can browse products, filter items by category, add and remove products from the shopping cart.",
     anchors: [
       {
         name: "Review the code",
