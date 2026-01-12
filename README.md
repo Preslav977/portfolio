@@ -1,10 +1,10 @@
 # portfolio
 
-<img width="1917" height="932" alt="Image" src="https://github.com/user-attachments/assets/b437c3b3-3a99-426f-acfc-5ba0eb453474" />
+<img width="1920" height="936" alt="Image" src="https://github.com/user-attachments/assets/805c9ff5-4254-407b-8d2d-00f7c92504bb" />
 
 # Description
 
-Created a personal portfolio to showcase my best projects.
+Created a portfolio to showcase my MERN (MongoDB, Express, React, Node) / PERN (PostgreSQL, Express, React, Node) projects.
 
 # Live Preview
 
