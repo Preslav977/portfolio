@@ -12,7 +12,7 @@ export function TypewriteAnimation() {
           <span>Music lover</span>
           <span>Calisthenics enjoyer</span>
         </span>
-        <h2 className={styles.typeWriterHeader}>Front-End Developer</h2>
+        <h2 className={styles.typeWriterHeader}>Developer</h2>
         <a href="#projects" className={styles.flexedRightArrowAnchorContainer}>
           View my work{" "}
           <img

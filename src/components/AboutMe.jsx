@@ -7,8 +7,8 @@ export function AboutMe() {
       <div className={styles.aboutMeInfoContainer}>
         <div className={styles.aboutMeInfo}>
           <p className={styles.aboutMeInfoPara}>
-            Hello, my name is Preslav. I am a front-end developer from Bulgaria.
-            My journey began in 2022 because I decided to try programming. I
+            Hello, my name is Preslav. I am a developer from Bulgaria. My
+            journey began in 2022 because I decided to try programming. I
             stumbled on The Odin Project, since then I learned so much about
             concepts, building projects, communicating with other people really
             neat free curriculum with awesome people.
